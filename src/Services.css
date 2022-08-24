@@ -1,0 +1,24 @@
+.head{
+    text-align: center;
+    font-size: 4.5rem;
+    margin-bottom: 2rem;
+}
+.first>p{
+    text-align: center;
+    font-size: 30px;
+}
+
+.first>img{
+    transform: scale(0.8);
+}
+.main{
+    margin: 2rem;
+    display: flex;
+    justify-content:space-around ;
+    align-items: center;
+}
+@media screen and (max-width: 400px) {
+    .main {
+          flex-direction: column;
+    }
+  }
